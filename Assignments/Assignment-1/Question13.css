@@ -1,0 +1,15 @@
+.nav1{
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 10px;
+    text-alig:center;
+    position-area: initial;
+}
+.nav2{
+    position:relative;
+    height:10px;
+    background-color: aquamarine;
+    text-align::right;
+}
