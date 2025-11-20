@@ -1,0 +1,57 @@
+/* this is horizontal*/
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+}
+
+.img1{
+    background-color: chartreuse;
+    border-radius: 10px;
+    border-color: black;
+    margin: 10px;
+}
+.img2{
+    background-color: chartreuse;
+      border-radius: 10px;
+      
+    border-color: black;
+    margin: 10px;
+}
+.img3{
+    background-color: chartreuse;
+      border-radius: 10px;
+      
+    border-color: black;
+    margin: 10px;
+}
+/*this is vertical*/
+.img4{
+    background-color: chartreuse;
+      border-radius: 10px;
+      
+    border-color: black;
+    margin: 10px;
+}
+.img5{
+    background-color: chartreuse;
+      border-radius: 10px;
+      
+    border-color: black;
+    margin: 10px;
+}
+.img6{
+    background-color: chartreuse;
+      border-radius: 10px;
+      
+    border-color: black;
+    margin: 10px;
+}

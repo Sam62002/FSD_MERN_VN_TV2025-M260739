@@ -1,0 +1,13 @@
+.cont {
+    
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 70vh auto;
+    gap: 10px;
+    grid-template-areas:
+        "bx1 bx1 bx1 bx1"
+        "bx2 bx3 bx3 bx4"
+        "bx5 bx5 bx5 bx5"
+    ;
+}

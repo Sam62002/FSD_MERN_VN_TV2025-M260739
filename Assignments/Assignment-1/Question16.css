@@ -1,0 +1,63 @@
+/* Styles for the Block Menu Container */
+.block ul {
+    list-style: none;
+    /* Removes bullet points */
+    padding: 0;
+    margin: 20px 0 0 0;
+    background-color: #fce4ec;
+    /* Light background for visibility */
+    border: 1px solid #d81b60;
+    width: 200px;
+    /* Constraining the parent width for a clearer block effect */
+}
+
+/* KEY: Applying display: block (which is the default for <li>) */
+.block li {
+    display: block;
+    margin-bottom: 2px;
+    /* Adds vertical spacing between items */
+    background-color: #f8bbd0;
+    border-left: 5px solid #d81b60;
+    /* Visual indicator of the full width */
+}
+
+.block a {
+    text-decoration: none;
+    color: #880e4f;
+    font-weight: bold;
+    /* Making the link itself a block-level element makes the whole area clickable */
+    display: block;
+    padding: 10px 15px;
+    /* Vertical padding is respected */
+    width: 100%;
+    /* Links expand to fill the <li> */
+}
+
+
+/* Styles for the Inline Menu Container */
+.inline ul {
+    list-style: none;
+    /* Removes bullet points */
+    padding: 10px;
+    margin: 0;
+    background-color: #e0f7fa;
+    /* Light background for visibility */
+    border: 1px solid #00bcd4;
+    text-align: center;
+}
+
+/* KEY: Applying display: inline to the list items */
+.inline li {
+    display: inline;
+    margin: 0 15px;
+    /* Adds horizontal spacing between links */
+}
+
+.inline a {
+    text-decoration: none;
+    color: #00838f;
+    font-weight: bold;
+    /* You cannot effectively set width/height or vertical padding/margin on inline elements */
+}
+
+
