@@ -1,0 +1,177 @@
+.img {
+    height: 500px;
+    width: 500px;
+    background-image: url(MY\ PIC.png);
+    background-size: cover;
+    /* scales image to cover entire area */
+    background-position: center;
+    /* centers the image */
+    background-repeat: no-repeat;
+    /* prevents tiling */
+
+    /* position: relative; */
+    margin: 10px;
+    border-radius: 360px/260px;
+    background-color: antiquewhite;
+    border-color: black;
+    position: relative;
+    right: -500px;
+    /* image-resolution: 500px * 500px; */
+
+}
+
+.main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+
+}
+
+#para {
+    height: 200px;
+    width: 900px;
+    font-size: larger;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    align-items: center;
+    /* background-color:lightseagreen; */
+    color: black;
+    position: relative;
+    top: -350px;
+    left: -205px;
+    border-radius: 20px;
+    border-color: aqua;
+
+
+
+}
+
+#head1 {
+    /* background-color: aqua; */
+    color: black;
+    width: 190px;
+    position: relative;
+    left: 100px;
+    top: 150px;
+    text-align: center;
+
+}
+
+
+#form1 {
+
+    justify-items: center;
+
+
+}
+
+#contact {
+    background-color: lightcyan;
+    border-color: black;
+    height: 400px;
+    width: 500px;
+    border-radius: 100px/200px;
+    margin: 80px;
+    right: 100px;
+}
+
+.proj {
+    border-radius: 100px;
+    height: 400px;
+    background-color: linen;
+    margin: 10px;
+    text-align: center;
+
+
+}
+
+/* 
+/* Container for layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Image block */
+.img {
+    height: 500px;
+    width: 500px;
+    background-image: url("MY PIC.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 10px;
+    border-radius: 50%;
+    /* perfect circle */
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+/* General text styling */
+.main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+/* Paragraph block */
+#para {
+    max-width: 900px;
+    padding: 20px;
+    font-size: larger;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    /* border: 2px solid aqua; */
+}
+
+/* Heading */
+#head1 {
+    color: black;
+    width: 190px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Contact section */
+#contact {
+    background-color: lightcyan;
+    border: 2px solid black;
+    height: 400px;
+    width: 500px;
+    border-radius: 100px/200px;
+    margin: 40px auto;
+}
+
+/* Project section */
+.proj {
+    border-radius: 20px;
+    height: 400px;
+    background-color: linen;
+    margin: 20px auto;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #para {
+        width: 500%;
+        justify-content: center;
+        font-size: medium;
+      
+    }
+
+    #contact {
+        width: 100%;
+    }
+}
