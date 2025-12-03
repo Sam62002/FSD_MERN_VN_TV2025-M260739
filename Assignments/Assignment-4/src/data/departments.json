@@ -1,0 +1,56 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science Engineering",
+    "short": "Software, algorithms, and modern computing.",
+    "description": "The CSE department focuses on software development, algorithms, systems, AI, and scalable computing.",
+    "courses": ["Data Structures & Algorithms", "Operating Systems", "Database Management Systems", "Computer Networks"],
+    "faculty": ["Dr. Kumar", "Dr. Meena", "Prof. Arjun"],
+    "labs": ["Programming Lab", "Networks Lab", "AI/ML Lab"]
+  },
+  {
+    "id": "it",
+    "name": "Information Technology",
+    "short": "Systems, data, and modern IT solutions.",
+    "description": "The IT department emphasizes information systems, data engineering, cloud, and enterprise solutions.",
+    "courses": ["Web Technologies", "Cloud Computing", "Information Security"],
+    "faculty": ["Dr. Nila", "Prof. Ravi"],
+    "labs": ["Systems Lab", "Cloud Lab"]
+  },
+  {
+    "id": "ece",
+    "name": "Electronics & Communication Engineering",
+    "short": "Circuits, signals, and communications.",
+    "description": "ECE covers embedded systems, signal processing, VLSI, and communication technologies.",
+    "courses": ["Signals & Systems", "Digital Electronics", "VLSI Design"],
+    "faculty": ["Dr. Priya", "Prof. Sandeep"],
+    "labs": ["VLSI Lab", "Embedded Systems Lab"]
+  },
+  {
+    "id": "mech",
+    "name": "Mechanical Engineering",
+    "short": "Design, manufacturing, and energy.",
+    "description": "Mechanical focuses on design, thermodynamics, manufacturing processes, and energy systems.",
+    "courses": ["Thermodynamics", "Machine Design", "Manufacturing Technology"],
+    "faculty": ["Dr. Vivek", "Prof. Kavya"],
+    "labs": ["CAD/CAM Lab", "Thermal Lab"]
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineering",
+    "short": "Structures, planning, and infrastructure.",
+    "description": "Civil emphasizes structural engineering, geotechnical systems, transportation, and sustainable infrastructure.",
+    "courses": ["Structural Analysis", "Geotechnical Engineering", "Transportation Engineering"],
+    "faculty": ["Dr. Rohan", "Prof. Asha"],
+    "labs": ["Structures Lab", "Soil Mechanics Lab"]
+  },
+  {
+    "id": "mba",
+    "name": "Master of Business Administration",
+    "short": "Management, strategy, and leadership.",
+    "description": "MBA trains students in strategy, finance, marketing, and organizational leadership.",
+    "courses": ["Marketing Management", "Financial Accounting", "Strategic Management"],
+    "faculty": ["Dr. Salma", "Prof. Tarun"],
+    "labs": ["Analytics Lab"]
+  }
+]
